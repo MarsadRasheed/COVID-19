@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".defaultCountryActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginRight="8dp"
+        app:cardCornerRadius="16dp"
+        tools:context=".DetailActivity"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/defaultName"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="center"
+                android:text="Pakistan"
+                android:maxLines="1"
+                android:textColor="@color/colorPrimaryDark"
+                android:autoSizeMinTextSize="5sp"
+                android:autoSizeTextType="uniform"
+                ></TextView>
+
+
+            <TextView
+                android:layout_margin="8dp"
+                android:id="@+id/defaultNewCon"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="New Confiremd : 00"
+                android:autoSizeMinTextSize="3sp"
+                android:autoSizeTextType="uniform"
+                android:maxLines="1">
+            </TextView>
+
+            <TextView
+                android:id="@+id/defaultCon"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="Total Confiremd : 00"
+                android:autoSizeMinTextSize="3sp"
+                android:autoSizeTextType="uniform"
+                android:maxLines="1">
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/defaultNewRec"
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="New Recovered : 00"
+                android:autoSizeMinTextSize="3sp"
+                android:autoSizeTextType="uniform"></TextView>
+
+
+            <TextView
+                android:id="@+id/defaultRec"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="Total Recovered : 00"
+                android:autoSizeMinTextSize="3sp"
+                android:autoSizeTextType="uniform"></TextView>
+
+
+            <TextView
+                android:id="@+id/defaultNewDea"
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="New Deaths : 00"
+                android:textColor="@color/colorAccent"
+                android:autoSizeMinTextSize="3sp"
+                android:autoSizeTextType="uniform"
+                ></TextView>
+
+            <TextView
+                android:id="@+id/defaultDea"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginStart="16dp"
+                android:layout_margin="8dp"
+                android:layout_marginEnd="16dp"
+                android:text="Total Deaths : 00"
+                android:textColor="@color/colorAccent"
+                android:autoSizeMinTextSize="3sp"
+                android:autoSizeTextType="uniform"
+                ></TextView>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
